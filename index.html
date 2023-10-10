@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Product</title>
+    <style>
+        img {
+        float:left;
+        }
+        .content {
+            display: flex;  
+            justify-content: center;   
+            flex-direction: column;
+            padding:10px;
+            margin-left: 60%;
+        }
+        .size {
+            display: flex;
+        }
+        span1 {
+            font-size: 25px;
+            color:brown;
+        }
+        .body-size {
+            font-size: 15px;
+            font-weight: bold;
+            word-spacing: 5px;
+        }
+        .price {
+            font-size: 2.5rem;
+            color: #7362ab;
+        }
+        .h1 {
+            color:#380a71;
+            font-size:25px;
+        }
+        p {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        button {
+            height:50px;
+            width:120px;
+            border:0;
+            border-radius: 10px;
+            background-color:rgb(76, 172, 76);
+            font-size: 15px;
+        }
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+     <div><img src="./sweatshirt.png" alt="sweatshirt"></div>
+     <div class="content">
+        <div class="h1"><h1>KAMA SHIRT</h1></div> 
+         <p>Color</p>
+         <div class="color"><div>🟣 🟤 🔴</div></div>
+          <p>Size</p>
+          <div class="size">
+              <div><p class="body-size">XXXL  <span1>XXL</span1> L </p></div>
+         </div>
+          <div>
+             <h2 class="price">₦25,000</h2>
+             <button><img src="cart.svg" alt="cart"> Add to Cart </button>
+          </div>
+    </div>
+   </div>
+
+</body>
+</html>
